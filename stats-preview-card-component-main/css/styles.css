@@ -1,0 +1,137 @@
+:root{
+    --primary-very-dark-blue:hsl(233, 47%, 7%);
+    --primary-dark-saturated-blue:hsl(244, 38%, 16%);
+    --primary-soft-violet:hsl(277, 64%, 61%);
+    --neutral-white:hsl(0, 0%, 100%);
+    --neutral-slightly-transparent-white-main:hsla(0, 0%, 100%, 0.75);
+    --neutral-slightly-transparent-white-stat:hsla(0, 0%, 100%, 0.6);
+
+}
+
+
+/*General styles*/
+
+body{
+    background-color: var(--primary-very-dark-blue);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-width: 100vw;
+    min-height: 100vh;
+    font-family: 'Inter', sans-serif;
+    font-size: 0.94rem;
+    position: relative;
+    
+}
+
+.attribution{
+    color: var(--neutral-slightly-transparent-white-stat);
+    padding: 2rem;
+    position: absolute;
+    bottom: 0;
+}
+
+.attribution a{
+    text-decoration: none;
+    color: var(--neutral-white);
+}
+
+main{
+    
+    color: var(--neutral-slightly-transparent-white-main);
+}
+
+.card{
+    width: 1110px;
+    background-color: var(--primary-dark-saturated-blue);
+    line-height: 1.8rem;
+    display: flex;
+    flex-direction: row-reverse;
+    border-radius: 8px;
+    
+    
+    
+
+}
+
+
+
+
+.card__image{
+    
+    background-color: rgb(185, 89, 230);
+    width: 57%;
+    border-radius: 0 8px 8px 0;
+    
+    
+    
+    
+
+}
+.image{
+    background-image: url(../images/image-header-desktop.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+    mix-blend-mode: multiply;
+    height: 100%;
+    
+    
+
+}
+
+
+.card__information{
+    padding: 0rem 6rem;
+    width: 43%;
+    
+}
+
+h1{
+    line-height: 3rem;
+    font-size: 2.3rem;
+
+}
+
+
+.card__info strong{
+    color: var(--primary-soft-violet);
+    
+}
+
+.card__info{
+    margin-top: 3.8rem;
+    margin-bottom: 4rem;
+}
+
+.card__info p{
+    
+    padding-right: 1rem;
+}
+
+
+
+.card__footer{
+    display: flex;
+    justify-content: space-between;
+    padding-right: 3rem;
+    font-size: 0.7rem;
+    font-family: 'Lexend Deca', sans-serif;
+    line-height: 0.5rem;
+    margin-bottom: 2rem;
+}
+
+h2{
+    color: var(--neutral-white);
+    font-size: 1.5rem;
+}
+
+.card__footer p{
+    text-transform: uppercase;
+    font-size: 0.8rem;
+    color: var(--neutral-slightly-transparent-white-stat);
+
+
+}
+
